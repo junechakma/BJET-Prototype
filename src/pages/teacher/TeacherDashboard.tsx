@@ -9,28 +9,23 @@ import {
 } from "lucide-react";
 
 const WEEKS = [
-  {
-    id: 3,
-    name: "Week 3",
-    date: "Oct 14 - Oct 20",
-    status: "active",
-    progress: 45,
-  },
-  {
-    id: 2,
-    name: "Week 2",
-    date: "Oct 7 - Oct 13",
-    status: "completed",
-    progress: 100,
-  },
-  {
-    id: 1,
-    name: "Week 1",
-    date: "Sep 30 - Oct 6",
-    status: "completed",
-    progress: 100,
-  },
+  { id: 1,  name: "Week 1",  date: "Mar 27 - Apr 2",   status: "pending", progress: 0 },
+  { id: 2,  name: "Week 2",  date: "Apr 3 - Apr 9",    status: "pending", progress: 0 },
+  { id: 3,  name: "Week 3",  date: "Apr 10 - Apr 16",  status: "pending", progress: 0 },
+  { id: 4,  name: "Week 4",  date: "Apr 17 - Apr 23",  status: "pending", progress: 0 },
+  { id: 5,  name: "Week 5",  date: "Apr 24 - Apr 30",  status: "pending", progress: 0 },
+  { id: 6,  name: "Week 6",  date: "May 1 - May 7",    status: "pending", progress: 0 },
+  { id: 7,  name: "Week 7",  date: "May 8 - May 14",   status: "pending", progress: 0 },
+  { id: 8,  name: "Week 8",  date: "May 15 - May 21",  status: "pending", progress: 0 },
+  { id: 9,  name: "Week 9",  date: "May 22 - May 28",  status: "pending", progress: 0 },
+  { id: 10, name: "Week 10", date: "May 29 - Jun 4",   status: "pending", progress: 0 },
+  { id: 11, name: "Week 11", date: "Jun 5 - Jun 11",   status: "pending", progress: 0 },
+  { id: 12, name: "Week 12", date: "Jun 12 - Jun 18",  status: "pending", progress: 0 },
+  { id: 13, name: "Week 13", date: "Jun 19 - Jun 25",  status: "pending", progress: 0 },
+  { id: 14, name: "Week 14", date: "Jun 26 - Jul 2",   status: "pending", progress: 0 },
+  { id: 15, name: "Week 15", date: "Jul 3 - Jul 3",    status: "pending", progress: 0 },
 ];
+
 
 export default function TeacherDashboard() {
   const [showCreateModal, setShowCreateModal] = useState(false);
